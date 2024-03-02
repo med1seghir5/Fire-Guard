@@ -24,11 +24,13 @@ function Login() {
     <main>
       <div className="flex flex-row items-center justify-center bg-[#fffff] border-b-1 shadow-md hover:shadow-lg shadow-slate-300 w-full md:flex justify-between">
         <div className="flex items-center justify-center">
+        <Link href="/">
           <Image
             src={img2}
             alt="logo"
-            className="flex flex-col items-center justify-center  ml-24 sm:flex items-center justify-center w-80 flex-shrink"
+            className="flex flex-col items-center justify-center ml-16 sm:flex items-center justify-center w-80 flex-shrink"
           />
+        </Link>
         </div>
 
         <div className="flex flex-row items-center justify-between ml-36 space-x-10 font-bold flex-grow hidden md:block">
@@ -69,7 +71,7 @@ function Login() {
           <div>
             <label className="space-x-1 ">
               <input
-                placeholder="Youremail@gmail.com"
+                placeholder="Your email"
                 id="text"
                 type="text"
                 className="border-2 pl-3 border-[#CDCDCD] bg-[#ffff] rounded-full w-96 py-2"
@@ -83,7 +85,7 @@ function Login() {
               <input
                 placeholder="Password"
                 id="text"
-                type="text"
+                type="password"
                 className="border-2 pl-3 border-[#CDCDCD] rounded-full bg-[#ffff] w-96 py-2"
               />
             </label>

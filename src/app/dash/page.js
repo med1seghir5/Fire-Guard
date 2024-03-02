@@ -20,7 +20,12 @@ function Dash(){
                     <Link href='/login'><button className="bg-[#FFFFFF] border-2 border-black rounded-full px-6 py-1 hidden md:block">Login</button></Link>
                         <Link href='/register'><button className="bg-[#000000] text-[#ffff] rounded-full px-6 py-1 hidden md:block">Try for free</button></Link>
                     </div>
-                    </div>
+                </div>
+
+
+
+
+
         </main>
     );
 }

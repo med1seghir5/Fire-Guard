@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 function FirstPage() {
     return (
-      <main className="flex flex-col lg:flex-row items-center justify-center p-8 lg:p-28 space-y-8 lg:space-y-0 lg:space-x-16">
-        <div className="flex justify-center items-center">
+      <main className="flex flex-col lg:flex-row items-center   justify-center p-8 lg:p-28 space-y-8 lg:space-y-0 lg:space-x-16">
+        <div className="flex justify-center items-center ">
           <Image src={img} alt="logo" className="w-72 lg:w-96" />
         </div>
   

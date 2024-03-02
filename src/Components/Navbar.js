@@ -8,7 +8,7 @@ function Navbar(){
         <main>
              <div className="flex flex-row items-center justify-center bg-[#fffff] border-b-1 shadow-md hover:shadow-lg shadow-slate-300 w-full md:flex justify-between">
                  <div className="flex items-center justify-center">
-                    <Image src={img2} alt="logo" className="flex flex-col items-center justify-center ml-28 pt-1 w-72 ml-24 sm:flex items-center justify-center w-80" />
+                    <Link href="/"><Image src={img2} alt="logo" className="flex flex-col items-center justify-center pt-1 w-72 ml-16 sm:flex items-center justify-center w-80" /></Link>
                  </div>
 
                 <div className="flex flex-row items-center justify-between space-x-10 pr-28 font-bold hidden md:block">
