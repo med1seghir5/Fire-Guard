@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#Home{
+    background-image: url('/back.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
