@@ -5,7 +5,7 @@ import FirstPage from "@/Components/FirstPage";
 
 export default function Home() {
   return (
-    <main id="Home">
+    <main id="home">
         <Navbar />
         <FirstPage />
     </main>
