@@ -1,70 +1,74 @@
 import Image from "next/image";
 import img2 from "/public/Group 19.svg";
 import img5 from "/public/Instagram (2).svg";
-import img6 from "/public/1280px-Facebook_Logo_(2019) 2.svg";
+import img6 from "/public/Behance.svg";
 import img7 from "/public/discord-logo-discord-icon-transparent-free-png 1.svg";
-import img3 from '/public/arrow-circle-left-light.svg';
-import img4 from '/public/question-circle-light.svg';
 import Link from 'next/link';
 
-function About() {
-    return (
-      <main>
-        <div className="flex flex-row items-center justify-center bg-[#fffff] border-b-1 shadow-md hover:shadow-lg shadow-slate-300 w-full md:flex justify-between">
+function About(){
+    return(
+        <main>
+               <div className="flex flex-row items-center justify-center bg-[#fffff] border-b-1 shadow-md hover:shadow-lg shadow-slate-300 w-full md:flex justify-between">
                  <div className="flex items-center justify-center">
-                    <Link href="/"><Image src={img4} alt="logo" className="flex flex-col items-center justify-center pt-1 ml-5 sm:flex items-center justify-center sm:hidden" /></Link>
-                    <Link href="/about"><Image src={img3} alt="logo" className="flex flex-col items-center justify-center pt-1 ml-6 sm:flex items-center justify-center sm:hidden" /></Link>
-                    <Link href="/"><Image src={img2} alt="logo" className="flex flex-col items-center justify-center pt-1 w-80 ml-20 sm:flex items-center justify-center w-80" /></Link>
+                    <Image src={img2} alt="logo" className="flex flex-col items-center justify-center w-72 ml-24 sm:flex items-center justify-center w-80" />
                  </div>
-  
-          <div className="flex flex-row items-center justify-between space-x-10 font-bold md:mr-40 hidden md:block">
-            <Link href="/"><button>Home</button></Link>
-            <Link href="/"><button>FAQ</button></Link>
-            <Link href="/about"><button>About</button></Link>
-          </div>
-  
-          <div className="flex items-center space-x-3 mr-4 font-bold">
-            <Link href='/login'><button className="bg-[#FFFFFF] border-2 border-black rounded-full px-4 py-1 hidden md:block">Login</button></Link>
-            <Link href='/register'><button className="bg-[#000000] text-[#ffff] rounded-full px-4 py-1 hidden md:block">Sign up</button></Link>
-          </div>
-        </div>
-  
-        <div className="flex flex-col items-center justify-center text-center p-4 md:p-10">
-          <div className="font-bold text-3xl md:text-4xl p-2">About Us</div>
-          <div className="font-semibold text-sm md:text-base">Google Developer Student Clubs are university-based community groups for students interested in Google developer technologies.<br/> Students from all undergraduate or graduate programs with an interest in growing as a <br/>developer are welcome.</div>
-        </div>
-  
-        <div className="text-center font-bold text-3xl md:text-4xl p-2">
-          Teams
-        </div>
-  
-        <div className="flex flex-col justify-center items-center font-semibold space-y-4 md:space-y-0 md:flex-row md:space-x-5">
-  <div className="flex flex-col md:flex-row md:space-x-10">
-    <div className="text-center">Achraf abdelouadoud Nessighaoui</div>
-    <div className="text-center">Zakaria Abd Eldjalil Hadef</div>
-    <div className="text-center">Abdelmalek Med Seghir</div>
-  </div>
 
-  <div className="flex flex-col md:flex-row md:space-x-10">
-    <div className="text-center">Aya Lounis</div>
-    <div className="text-center">Amina Bennamor</div>
-  </div>
-</div>
+                <div className="flex flex-row items-center justify-between space-x-10 font-bold mr-28">
+                    <Link href="/"><button>Home</button></Link>
+                    <Link href="/"><button>FAQ</button></Link>
+                    <Link href="/about"><button>About</button></Link>
+                </div>
 
-  
-        <div className="flex flex-col justify-center items-center p-4 md:p-24">
-          <div className="text-center font-bold text-xl md:text-2xl p-2">Follow Us</div>
-  
-          <div className="flex flex-col md:flex-row justify-center items-center space-y-5 md:space-y-0 md:space-x-10">
-            <Image src={img7} alt="logo" className="w-16" />
-            <div className="font-semibold text-slate-500"><a href="https://discord.gg/Ns3mPRPb">Discord</a></div>
-            <Image src={img5} alt="logo" className="w-12" />
-            <div className="font-semibold text-slate-500"><a href="https://www.instagram.com/gdsc.batna2?">Instagram</a></div>
-            <Image src={img6} alt="logo" />
-            <div className="font-semibold text-slate-500"><a href="https://www.facebook.com/GDSCBatna?mibextid=ZbWKwL">facebook</a></div>
-          </div>
-        </div>
-      </main>
+                    <div className="flex items-center space-x-3 mr-16 font-bold">
+                    <Link href='/login'><button className="bg-[#FFFFFF] rounded-full px-6 py-1 hidden md:block">Login</button></Link>
+                        <Link href='/register'><button className="bg-[#000000] text-[#ffff] rounded-full px-6 py-1 hidden md:block">Sign up</button></Link>
+                    </div>
+                </div>
+
+
+
+                <div className="flex flex-col items-center justify-center text-center">
+                    <div className="font-bold text-4xl p-4">About Us</div>
+                    <div className="font-semibold">Google Developer Student Clubs are university-based community groups for <br/> students interested in Google developer technologies. Students from all <br/> undergraduate or graduate programs with an interest in growing as a developer <br/> are welcome.</div>
+                </div>
+                <div className="text-center font-bold text-4xl p-4">
+                    Teams
+                </div>
+                <div className="flex flex-col justify-center items-center font-semibold">
+                <div className="flex flex-row items-center justify-between space-x-16">
+                    <div>Achraf abdelouadoud Nessighaoui</div>
+                    <div>Zakaria Abd Eldjalil Hadef</div>
+                    <div>Abdelmalek Med Seghir</div>
+                  </div>
+
+                  <div className="flex flex-row items-center justify-between space-x-16">
+                    <div>Aya Lounis</div>
+                    <div>Amina Bennamor</div>
+                  </div> 
+                </div>              
+
+                <div className="flex flex-col justify-center items-center p-24">
+                    <div className="text-center font-bold text-2xl">Follow Us</div>
+
+                    <div className="flex flex-row">
+                    <div>
+                        <div><Image src={img5} alt="logo" className="w-10"/><div/>
+                    </div>
+
+                    <div>
+                        <div><Image src={img5} alt="logo" className="w-10"/><div/>
+                    </div>
+
+                    <div>
+                        <div><Image src={img5} alt="logo" className="w-10"/><div/>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                </div>
+        </main>
     );
-  }
+}
+
 export default About;

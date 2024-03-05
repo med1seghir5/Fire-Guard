@@ -1,8 +1,6 @@
 import Image from "next/image";
 import img from "/public/undraw_sign_up_n6im (1) 1.svg";
 import img2 from "/public/Group 19.svg";
-import img3 from '/public/arrow-circle-left-light.svg';
-import img4 from '/public/question-circle-light.svg';
 import Link from 'next/link';
 // import Navbar from "@/Components/Navbar";
 
@@ -11,19 +9,17 @@ function Register() {
     <main>
          <div className="flex flex-row items-center justify-center bg-[#fffff] border-b-1 shadow-md hover:shadow-lg shadow-slate-300 w-full md:flex justify-between">
                  <div className="flex items-center justify-center">
-                    <Link href="/"><Image src={img4} alt="logo" className="flex flex-col items-center justify-center pt-1 ml-5 sm:flex items-center justify-center sm:hidden" /></Link>
-                    <Link href="/about"><Image src={img3} alt="logo" className="flex flex-col items-center justify-center pt-1 ml-6 sm:flex items-center justify-center sm:hidden" /></Link>
-                    <Link href="/"><Image src={img2} alt="logo" className="flex flex-col items-center justify-center pt-1 w-80 ml-20 sm:flex items-center justify-center w-80" /></Link>
+                    <Image src={img2} alt="logo" className="flex flex-col items-center justify-center w-72 ml-24 sm:flex items-center justify-center w-80" />
                  </div>
 
-                <div className="flex flex-row items-center justify-between mr-16 space-x-10 font-bold hidden md:block">
+                <div className="flex flex-row items-center justify-between space-x-10 font-bold hover:">
                     <Link href="/"><button>Home</button></Link>
                     <Link href="/"><button>FAQ</button></Link>
                     <Link href="/about"><button>About</button></Link>
                 </div>
 
                     <div className="flex items-center space-x-3 mr-16 font-bold">
-                    <Link href='/login'><button className="bg-[#FFFFFF] rounded-full border-2 border-black px-6 py-1 hidden md:block">Login</button></Link>
+                    <Link href='/login'><button className="bg-[#FFFFFF] rounded-full px-6 py-1 hidden md:block">Login</button></Link>
                         <Link href='/register'><button className="bg-[#000000] text-[#ffff] rounded-full px-6 py-1 hidden md:block">Try For Free</button></Link>
                     </div>
                     </div>
@@ -51,7 +47,7 @@ function Register() {
           <div className="mt-3">
             <label className="space-x-1">
               <input
-                placeholder="Your email"
+                placeholder="Youremail@gmail.com"
                 id="text"
                 type="text"
                 className="border-2 pl-3 border-[#CDCDCD] rounded-full bg-[#ffff] w-96 py-2"
@@ -65,7 +61,7 @@ function Register() {
               <input
                 placeholder="Password"
                 id="text"
-                type="password"
+                type="text"
                 className="border-2 pl-3 border-[#CDCDCD] rounded-full bg-[#ffff] w-96 py-2"
               />
             </label>
