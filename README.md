@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Desktop - Register](https://github.com/user-attachments/assets/a1901c15-5827-4750-9f4a-02fad17752ab)
+![Desktop - Login](https://github.com/user-attachments/assets/0b07ae38-3172-4637-b229-32849fb8e302)
+![Desktop - Home](https://github.com/user-attachments/assets/dcba8fda-a505-4248-9a3c-fc3dd2007873)
+![Desktop - Test](https://github.com/user-attachments/assets/b124685f-db1d-4b77-8e95-14b26934ad09)
+![Desktop - About](https://github.com/user-attachments/assets/abf00106-5d91-4103-a19e-c5fbc4fdfd41)
+![iPhone 13 Pro Max - Register](https://github.com/user-attachments/assets/2661fa91-9956-4027-b65e-91355bfa1fc8)
+![iPhone 13 Pro Max - Login](https://github.com/user-attachments/assets/fa6ff425-4c0d-4979-a2a2-860b7918d74e)
+![iPhone 13 Pro Max - Home](https://github.com/user-attachments/assets/159f7dfa-1bd3-499b-bab6-976a2ed4447a)
+![iPhone 13 Pro Max - Test r](https://github.com/user-attachments/assets/76a91182-4221-4b42-8b1e-02d1f9d041bb)
+![iPhone 13 Pro Max - About](https://github.com/user-attachments/assets/5d4fca33-6ab7-41ea-8d6d-cbeee0010626)
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
