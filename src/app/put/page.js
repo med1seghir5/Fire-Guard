@@ -1,36 +1,52 @@
 import Image from "next/image";
-import img2 from '/public/14fa588180435416490e55f4a3bc10be 1.svg';
-import img3 from '/public/Rectangle 10.svg';
-
+import img2 from '/public/Group 19.svg';
+import img5 from '/public/Rectangle 10.svg';
+import img3 from '/public/arrow-circle-left-light.svg';
+import img4 from '/public/question-circle-light.svg';
+import Link from 'next/link';
 
 
 function Put(){
     return(
-        <main>
-             <div className="flex flex-row justify-between bg-[#40B59F]">
-             <div>
-                <Image src={img2} alt="logo" />
-             </div>
-                 <div className="flex items-center space-x-3 mr-16 font-bold">
-            <button className="bg-[#FFFFFF] rounded-full px-6 py-1 ">Login</button>
-            <button className="bg-[#000000] text-[#ffff] rounded-full px-6 py-1">Sign up</button>
-             </div>
-             </div>
+        <main className="flex flex-col justify-center items-center">
+            <div className="flex flex-row items-center justify-center bg-[#fffff] border-b-1 shadow-md hover:shadow-lg shadow-slate-300 w-full md:flex justify-between">
+                <div className="flex items-center justify-center">
+                    <Link href="/"><Image src={img4} alt="logo" className="flex flex-col items-center justify-center pt-1 ml-5 sm:flex items-center justify-center sm:hidden" /></Link>
+                    <Link href="/about"><Image src={img3} alt="logo" className="flex flex-col items-center justify-center pt-1 ml-6 sm:flex items-center justify-center sm:hidden" /></Link>
+                    <Link href="/"><Image src={img2} alt="logo" className="flex flex-col items-center justify-center pt-1 w-80 ml-20 sm:flex items-center justify-center w-80" /></Link>
+                 </div>
 
-
-             <div className="flex flex-row justify-center items-center text-center space-x-20 p-10 bg-[#F3F2F2]">
-                    <div className="flex flex-col">
-                        <div className="font-bold pb-2 text-xl">Input</div>
-                        <Image src={img3} alt="logo" className="w-96"/>
-                        <button className="bg-[#40B59F] text-[#ffff] py-2 rounded-full mt-5 font-bold">Upload</button>
+                <div className="flex-row items-center justify-between space-x-10 mr-20 font-bold max-sm:hidden md:block">
+                    <Link href="/"><button>Home</button></Link>
+                    <Link href="/"><button>FAQ</button></Link>
+                    <Link href="/about"><button>About</button></Link>
+                </div>
+                    
+                    <div className="flex items-center space-x-3 mr-16 font-bold">
+                    <Link href='/login'><button className="bg-[#FFFFFF] rounded-full border-2 border-black px-6 py-1 hidden md:block">Login</button></Link>
+                        <Link href='/register'><button className="bg-[#000000] text-[#ffff] rounded-full px-6 py-1 hidden md:block">Try For Free</button></Link>
+                    </div>
                     </div>
 
-                    <div className="flex flex-col">
-                        <div className="font-bold pb-2 text-xl">Output</div>
-                        <Image src={img3} alt="logo" className="w-96" />
-                        <button className="bg-[#40B59F] text-[#ffff] py-2 rounded-full mt-5 font-bold">Status</button>
+                    <div className="text-center font-bold p-5">
+                        Input
+                        <Image src={img5} alt="logo" className="w-96"/>
+                        <label><input type="file" /></label>
+                        <button className="bg-[#40B59F] text-[#ffff] py-3 px-3 rounded-full mt-5 font-bold">Upload</button>
                     </div>
-             </div>
+
+
+                    <div className="text-center font-bold p-10">
+                        Output
+                        <Image src={img5} alt="logo" className="w-96"/>
+                        <button className="bg-[#40B59F] text-[#ffff] py-3 px-10 rounded-full mt-5 font-bold">Status</button>
+                    </div>
+
+
+
+
+
+                    
 
         </main>
     );
